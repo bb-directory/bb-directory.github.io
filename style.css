@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #0f0f0f;
+  background-color: #141629;
   color: #eee;
   text-align: center;
   padding: 3rem 1rem;
@@ -19,16 +19,6 @@ header h1 {
 header p {
   margin: 0 0 1rem 0;
   color: #aaa;
-}
-
-header nav a {
-  margin: 0 1em;
-  color: #66ccff;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  text-decoration: underline;
 }
 
 main {
