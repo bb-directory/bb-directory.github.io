@@ -1,0 +1,35 @@
+body {
+  background-color: #0f0f0f;
+  color: #eee;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #aaa;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #66ccff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
