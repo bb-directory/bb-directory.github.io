@@ -46,3 +46,10 @@ td img {
   height: auto;
   display: block;
 }
+
+td img:hover {
+  transform: scale(1.5);
+  transition: transform 0.2s ease;
+  z-index: 1;
+  position: relative;
+}
