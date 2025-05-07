@@ -24,7 +24,7 @@ header p {
 
 main {
   background-color: white;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 table {
@@ -55,4 +55,13 @@ td img:hover {
   transition: transform 0.2s ease;
   z-index: 1;
   position: relative;
+}
+
+.projects {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
