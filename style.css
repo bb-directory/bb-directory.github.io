@@ -1,6 +1,6 @@
 body {
   background-color: #4F5379;
-  color: white;
+  color: white; /* only for non-table text */
   margin: 0;
   font-family: system-ui, sans-serif;
 }
@@ -23,7 +23,7 @@ header p {
 }
 
 main {
-  background-color: white;
+  background: transparent;
   padding: 2rem 1rem;
 }
 
