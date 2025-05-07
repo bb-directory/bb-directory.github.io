@@ -59,7 +59,7 @@ td img:hover {
 
 /* Container for your table */
 .projects {
-  background-color: #A6DFFF; /* light gray instead of white */
+  background-color: #c0c0c0; /* light gray instead of white */
   padding: 2rem;
   border-radius: 8px;
   max-width: 1200px;    /* increase this to whatever max width you like */
