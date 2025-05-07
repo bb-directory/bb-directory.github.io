@@ -57,11 +57,33 @@ td img:hover {
   position: relative;
 }
 
+/* Container for your table */
 .projects {
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
-  max-width: 1000px;
-  margin: 2rem auto;
+  max-width: 1200px;    /* increase this to whatever max width you like */
+  width: 90%;           /* so it scales responsively */
+  margin: 2rem auto;    
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: black;         /* default text color inside this container */
+}
+
+/* Make table itself fill its container */
+.projects table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Ensure headers and cells have black text */
+.projects th,
+.projects td {
+  color: black;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+/* (Optional) if you want the header row a little standout */
+.projects thead th {
+  background-color: #f0f0f0;
 }
