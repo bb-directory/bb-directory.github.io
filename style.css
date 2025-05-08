@@ -57,7 +57,7 @@ td img {
 }
 
 td img:hover {
-  transform: scale(1.5); /* Zoom image by 1.5 times */
+  transform: scale(1.3); /* Zoom image by 1.5 times */
   z-index: 1;            /* Ensure zoomed image is on top */
   position: relative;
 }
