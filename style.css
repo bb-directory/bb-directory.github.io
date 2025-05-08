@@ -89,7 +89,7 @@ footer {
 /* Make table itself fill its container */
 .projects table {
   width: 100%;
-  border: 3px solid #ccc; /* Increase thickness here */
+  border: 1px solid #ccc; /* Increase thickness here */
   border-collapse: collapse;
 }
 
@@ -98,7 +98,7 @@ footer {
 .projects td {
   color: black;
   border: 1px solid #ccc;
-  padding: 1rem;
+  padding: 12rem;
 }
 
 /* (Optional) if you want the header row a little standout */
