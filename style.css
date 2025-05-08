@@ -48,17 +48,17 @@ th {
 }
 
 td img {
-  width: 75%;
-  max-width: 300px;
+  width: 75%;           /* Adjust width */
+  max-width: 300px;     /* Set a max-width to allow for zoom */
   height: auto;
   display: block;
   margin: 0 auto;
+  transition: transform 0.2s ease; /* Smooth zoom transition */
 }
 
 td img:hover {
-  transform: scale(1.5);
-  transition: transform 0.2s ease;
-  z-index: 1;
+  transform: scale(1.5); /* Zoom image by 1.5 times */
+  z-index: 1;            /* Ensure zoomed image is on top */
   position: relative;
 }
 
@@ -83,7 +83,7 @@ footer {
   margin: 2rem auto;    
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   color: black;         /* default text color inside this container */
-  overflow-x: auto;
+  overflow-x: auto;     /* Prevent horizontal scrollbars */
 }
 
 /* Make table itself fill its container */
