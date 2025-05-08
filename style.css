@@ -89,6 +89,7 @@ footer {
 /* Make table itself fill its container */
 .projects table {
   width: 100%;
+  border: 3px solid #ccc; /* Increase thickness here */
   border-collapse: collapse;
 }
 
@@ -96,7 +97,7 @@ footer {
 .projects th,
 .projects td {
   color: black;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   padding: 1rem;
 }
 
