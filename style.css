@@ -68,6 +68,11 @@ img {
   display: block;
 }
 
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
 /* Container for your table */
 .projects {
   background-color: #f0f0f0; /* light gray instead of white */
