@@ -35,6 +35,13 @@ table {
   background-color: #f2f2f2;
 }
 
+.table-description {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
 th, td {
   border: 1px solid #ccc;
   padding: 1rem;

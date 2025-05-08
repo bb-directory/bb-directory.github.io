@@ -5,17 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BlueBuild Directory</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="loadDirectory.js"></script>
 </head>
 <body>
   <header>
     <h1>BlueBuild Directory</h1>
     <p>A curated list of BlueBuild & uBlue projects and links.</p>
     <p>Currently a personal directory, Not affiliated with BlueBuild or uBlue Projects.</p>
-    <p>Yes = ✅ &nbsp;&nbsp; No = ❌ &nbsp;&nbsp; Unknown = 🤷‍♂️</p>
+    <p>Yes = ✅ | No = ❌ | Unknown = 🤷‍♂️</p>
   </header>
 
   <main>
     <section class="projects">
+      <p class="table-description">
+        Meant to inspire, or give examples from projects that might help you succeed with yours.
+      </p>
       <table>
         <thead>
           <tr>
@@ -23,23 +27,21 @@
             <th>Name</th>
             <th>Creator</th>
             <th>Base</th>
-            <th>Template</th>
+            <th>Type</th>
             <th>Asking for Feedback</th>
             <th>Link</th>
           </tr>
         </thead>
-        <tbody id="project-table-body">
-          <!-- Rows will be loaded here dynamically from directory.json -->
+        <tbody id="directory-table-body">
+          <!-- Table rows will be injected here by loadDirectory.js -->
         </tbody>
       </table>
     </section>
   </main>
 
-  <footer style="text-align: center;">
-    <p>If you would like your project added or removed, please let me know.</p>
+  <footer>
+    <p>If you would like your project added, or removed please let me know.</p>
     <p>© 2025 BlueBuild Directory. Maintained independently.</p>
   </footer>
-
-  <script src="loadDirectory.js"></script>
 </body>
 </html>
