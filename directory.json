@@ -30,15 +30,15 @@
       "screenshotAlt": "LinuXYZ Screenshot"
     },
     {
-        "name": "Stellarite",
-        "creator": "BillyAddlers",
-        "base": "Fedora Silverblue",
-        "template": "uBlue",
-        "feedback": "🤷‍♂️",
-        "link": "https://github.com/BillyAddlers/stellarite",
-        "screenshot": "screenshots/stellarite.png",
-        "screenshotAlt": "stellarite Screenshot"
-      },
+      "name": "Stellarite",
+      "creator": "BillyAddlers",
+      "base": "Fedora Silverblue",
+      "template": "uBlue",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/BillyAddlers/stellarite",
+      "screenshot": "screenshots/stellarite.png",
+      "screenshotAlt": "stellarite Screenshot"
+    },
     {
       "name": "Vauxite",
       "creator": "VictoryTek",
