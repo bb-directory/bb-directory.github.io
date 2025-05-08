@@ -105,3 +105,8 @@ footer {
 .projects thead th {
   background-color: #f0f0f0;
 }
+
+.projects td:nth-child(6),
+.projects th:nth-child(6) {
+  text-align: center;
+}
