@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <td>${project.name}</td>
             <td>${project.creator}</td>
             <td>${project.base}</td>
-            <td>${project.type}</td>
+            <td>${project.template}</td>
             <td>${project.feedback}</td>
             <td><a href="${project.link}" target="_blank">Visit</a></td>
           `;
