@@ -1,0 +1,39 @@
+[
+    {
+      "name": "BourbonOS",
+      "creator": "certifiedfoolio",
+      "base": "CentOS Stream + Fedora 42",
+      "feedback": "✅",
+      "link": "https://github.com/bourbonOS/bourbonOS-devel",
+      "screenshot": "screenshots/project1.png",
+      "screenshotAlt": "No Screenshot ATM"
+    },
+    {
+      "name": "Gidro-OS",
+      "creator": "fiftydinar",
+      "base": "Silverblue",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/fiftydinar/gidro-os",
+      "screenshot": "screenshots/gidro-os.png",
+      "screenshotAlt": "Gidro-os Screenshot"
+    },
+    {
+      "name": "LinuXYZ",
+      "creator": "xynydev",
+      "base": "Silverblue Nvidia",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/xynydev/linuXYZ",
+      "screenshot": "screenshots/project1.png",
+      "screenshotAlt": "No Screenshot yet"
+    },
+    {
+      "name": "Vauxite",
+      "creator": "VictoryTek",
+      "base": "Bazzite Gnome Nvidia",
+      "feedback": "❌",
+      "link": "https://github.com/VictoryTek/Vauxite",
+      "screenshot": "screenshots/vauxite.png",
+      "screenshotAlt": "Vauxite Screenshot"
+    }
+  ]
+  

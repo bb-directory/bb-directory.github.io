@@ -11,7 +11,7 @@
     <h1>BlueBuild Directory</h1>
     <p>A curated list of BlueBuild & uBlue projects and links.</p>
     <p>Currently a personal directory, Not affiliated with BlueBuild or uBlue Projects.</p>
-    <p>Yes=✅ No=❌ Unknown=🤷‍♂️</p>
+    <p>Yes = ✅ &nbsp;&nbsp; No = ❌ &nbsp;&nbsp; Unknown = 🤷‍♂️</p>
   </header>
 
   <main>
@@ -27,70 +27,18 @@
             <th>Link</th>
           </tr>
         </thead>
-        <tbody>
-          <!-- BourbonOS -->
-          <tr>
-            <td>
-              <a href="screenshots/project1.png" target="_blank">
-                <img src="screenshots/project1.png" alt="No Screenshot ATM" />
-              </a>
-            </td>
-            <td>BourbonOS</td>
-            <td>certifiedfoolio</td>
-            <td>CentOS Stream + Fedora 42</td>
-            <td>✅</td>
-            <td><a href="https://github.com/bourbonOS/bourbonOS-devel" target="_blank">Visit</a></td>
-          </tr>
-
-          <!-- Gidro-OS -->
-          <tr>
-            <td>
-              <a href="screenshots/gidro-os.png" target="_blank">
-                <img src="screenshots/gidro-os.png" alt="Gidro-os Screenshot" />
-              </a>
-            </td>
-            <td>Gidro-OS</td>
-            <td>fiftydinar</td>
-            <td>Silverblue</td>
-            <td>🤷‍♂️</td>
-            <td><a href="https://github.com/fiftydinar/gidro-os" target="_blank">Visit</a></td>
-          </tr>
-
-          <!-- LinuXYZ -->
-          <tr>
-            <td>
-              <a href="screenshots/project1.png" target="_blank">
-                <img src="screenshots/project1.png" alt="No Screenshot yet" />
-              </a>
-            </td>
-            <td>LinuXYZ</td>
-            <td>xynydev</td>
-            <td>Silverblue Nvidia</td>
-            <td>🤷‍♂️</td>
-            <td><a href="https://github.com/xynydev/linuXYZ" target="_blank">Visit</a></td>
-          </tr>
-
-          <!-- Vauxite -->
-          <tr>
-            <td>
-              <a href="screenshots/vauxite.png" target="_blank">
-                <img src="screenshots/vauxite.png" alt="Vauxite Screenshot" />
-              </a>
-            </td>
-            <td>Vauxite</td>
-            <td>VictoryTek</td>
-            <td>Bazzite Gnome Nvidia</td>
-            <td>❌</td>
-            <td><a href="https://github.com/VictoryTek/Vauxite" target="_blank">Visit</a></td>
-          </tr>
+        <tbody id="project-table-body">
+          <!-- Rows will be loaded here dynamically from directory.json -->
         </tbody>
       </table>
     </section>
   </main>
 
-  <footer>
-    <p>If you would like your project added, or removed please let me know.</p>
+  <footer style="text-align: center;">
+    <p>If you would like your project added or removed, please let me know.</p>
     <p>© 2025 BlueBuild Directory. Maintained independently.</p>
   </footer>
+
+  <script src="loadDirectory.js"></script>
 </body>
 </html>
