@@ -30,6 +30,16 @@
       "screenshotAlt": "LinuXYZ Screenshot"
     },
     {
+      "name": "Secureblue",
+      "creator": "Secureblue",
+      "base": "Fedora Silverblue",
+      "template": "uBlue",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/secureblue/secureblue",
+      "screenshot": "screenshots/secureblue.png",
+      "screenshotAlt": "secureblue Screenshot"
+    },
+    {
       "name": "Stellarite",
       "creator": "BillyAddlers",
       "base": "Fedora Silverblue",
