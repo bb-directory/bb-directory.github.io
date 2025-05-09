@@ -58,6 +58,16 @@
       "link": "https://github.com/VictoryTek/Vauxite",
       "screenshot": "screenshots/vauxite.png",
       "screenshotAlt": "Vauxite Screenshot"
+    },
+    {
+      "name": "Wayblue",
+      "creator": "wayblueorg",
+      "base": "Fedora Silverblue",
+      "template": "BlueBuild",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/wayblueorg/wayblue",
+      "screenshot": "screenshots/Wayblue.png",
+      "screenshotAlt": "Wayblue Screenshot"
     }
   ]
   
