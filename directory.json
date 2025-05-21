@@ -1,5 +1,15 @@
 [
     {
+      "name": "Atomic-t480s",
+      "creator": "askpng",
+      "base": "Fedora Silverblue",
+      "template": "BlueBuild",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/askpng/atomic-t480s",
+      "screenshot": "screenshots/atomic-t480s.png",
+      "screenshotAlt": "Atomic-t480s Screenshot"
+    },
+    {
       "name": "BourbonOS",
       "creator": "certifiedfoolio",
       "base": "CentOS Stream + Fedora 42",
