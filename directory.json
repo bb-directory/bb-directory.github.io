@@ -33,7 +33,7 @@
       "name": "Secureblue",
       "creator": "RoyalOughtness",
       "base": "Fedora Silverblue",
-      "template": "uBlue",
+      "template": "BlueBuild",
       "feedback": "🤷‍♂️",
       "link": "https://github.com/secureblue/secureblue",
       "screenshot": "screenshots/secureblue.png",
