@@ -60,6 +60,16 @@
       "screenshotAlt": "stellarite Screenshot"
     },
     {
+      "name": "Sticky-OS",
+      "creator": "MrStickyPiston",
+      "base": "Fedora Kinoite",
+      "template": "BlueBuild",
+      "feedback": "🤷‍♂️",
+      "link": "https://github.com/MrStickyPiston/Sticky-OS",
+      "screenshot": "screenshots/sticky-os.png",
+      "screenshotAlt": "Sticky-OS screenshot"
+    },
+    {
       "name": "Vauxite",
       "creator": "VictoryTek",
       "base": "Bazzite Gnome Nvidia",
