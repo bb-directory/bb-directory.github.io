@@ -7,7 +7,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/askpng/atomic-t480s",
       "screenshot": "screenshots/atomic-t480s.png",
-      "screenshotAlt": "Atomic-t480s Screenshot"
+      "screenshotAlt": "atomic-t480s screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "BourbonOS",
@@ -17,7 +18,8 @@
       "feedback": "✅",
       "link": "https://github.com/bourbonOS/bourbonOS-devel",
       "screenshot": "screenshots/bourbonos.png",
-      "screenshotAlt": "BourbonOS Screenshot"
+      "screenshotAlt": "BourbonOS screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "Gidro-OS",
@@ -27,7 +29,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/fiftydinar/gidro-os",
       "screenshot": "screenshots/gidro-os.png",
-      "screenshotAlt": "Gidro-os Screenshot"
+      "screenshotAlt": "Gidro-os screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "LinuXYZ",
@@ -37,7 +40,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/xynydev/linuXYZ",
       "screenshot": "screenshots/linuxyz.png",
-      "screenshotAlt": "LinuXYZ Screenshot"
+      "screenshotAlt": "LinuXYZ screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "Secureblue",
@@ -47,7 +51,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/secureblue/secureblue",
       "screenshot": "screenshots/secureblue.png",
-      "screenshotAlt": "secureblue Screenshot"
+      "screenshotAlt": "secureblue screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "Stellarite",
@@ -57,7 +62,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/BillyAddlers/stellarite",
       "screenshot": "screenshots/stellarite.png",
-      "screenshotAlt": "stellarite Screenshot"
+      "screenshotAlt": "stellarite screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "Sticky-OS",
@@ -66,8 +72,9 @@
       "template": "BlueBuild",
       "feedback": "🤷‍♂️",
       "link": "https://github.com/MrStickyPiston/Sticky-OS",
-      "screenshot": "screenshots/sticky-os.png",
-      "screenshotAlt": "Sticky-OS screenshot"
+      "screenshot": "screenshots/.png",
+      "screenshotAlt": "Sticky-OS screenshot",
+      "DE": "KDE Plasma"
     },
     {
       "name": "Vauxite",
@@ -77,7 +84,8 @@
       "feedback": "❌",
       "link": "https://github.com/VictoryTek/Vauxite",
       "screenshot": "screenshots/vauxite.png",
-      "screenshotAlt": "Vauxite Screenshot"
+      "screenshotAlt": "Vauxite Screenshot",
+      "DE": "GNOME"
     },
     {
       "name": "Wayblue",
@@ -87,7 +95,7 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/wayblueorg/wayblue",
       "screenshot": "screenshots/wayblue.png",
-      "screenshotAlt": "Wayblue Screenshot"
+      "screenshotAlt": "Wayblue Screenshot",
+      "DE": "GNOME"
     }
   ]
-  
