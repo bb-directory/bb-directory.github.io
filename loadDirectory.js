@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <td>${project.creator}</td>
             <td>${project.base}</td>
             <td>${project.template}</td>
-            <td>${project.DE || ''}</td>
             <td>${project.feedback}</td>
             <td><a href="${project.link}" target="_blank">Visit</a></td>
           `;
@@ -30,3 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error loading project data:', error);
       });
   });
+  
