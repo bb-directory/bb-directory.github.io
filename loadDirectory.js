@@ -13,6 +13,26 @@ const fallbackData = [
     "screenshotAlt": "Atomic-t480s Screenshot"
   },
   {
+    "name": "Blue95",
+    "creator": "ledif",
+    "base": "Vauxite",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/winblues/blue95",
+    "screenshot": "screenshots/blue95.png",
+    "screenshotAlt": "Blue95 Screenshot"
+  },
+  {
+    "name": "BlueXP",
+    "creator": "ledif",
+    "base": "Vauxite",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/winblues/bluexp",
+    "screenshot": "screenshots/bluexp.png",
+    "screenshotAlt": "BlueXP Screenshot"
+  },
+  {
     "name": "BourbonOS",
     "creator": "certifiedfoolio",
     "base": "CentOS Stream + Fedora 42",
