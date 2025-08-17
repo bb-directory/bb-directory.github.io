@@ -37,7 +37,7 @@ const fallbackData = [
     "creator": "L0g0ff",
     "base": "Aurora",
     "template": "BlueBuild",
-    "feedback": "🤷‍♂️",
+    "feedback": "✅",
     "link": "https://github.com/L0g0ff/KompassOS",
     "screenshot": "screenshots/kompassos.png",
     "screenshotAlt": "KompassOS Screenshot"
@@ -81,16 +81,6 @@ const fallbackData = [
     "link": "https://github.com/MrStickyPiston/Sticky-OS",
     "screenshot": "screenshots/sticky-os.png",
     "screenshotAlt": "Sticky-OS screenshot"
-  },
-  {
-    "name": "Vauxite",
-    "creator": "VictoryTek",
-    "base": "Bazzite Gnome Nvidia",
-    "template": "BlueBuild",
-    "feedback": "❌",
-    "link": "https://github.com/VictoryTek/Vauxite",
-    "screenshot": "screenshots/vauxite.png",
-    "screenshotAlt": "Vauxite Screenshot"
   },
   {
     "name": "Wayblue",
