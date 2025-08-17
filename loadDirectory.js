@@ -33,6 +33,16 @@ const fallbackData = [
     "screenshotAlt": "Gidro-os Screenshot"
   },
   {
+    "name": "KompassOS",
+    "creator": "L0g0ff",
+    "base": "Aurora",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/L0g0ff/KompassOS",
+    "screenshot": "screenshots/kompassos.png",
+    "screenshotAlt": "KompassOS Screenshot"
+  },
+  {
     "name": "LinuXYZ",
     "creator": "xynydev",
     "base": "Fedora Silverblue Nvidia",
