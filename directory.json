@@ -137,7 +137,17 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/winblues/winblues7",
       "screenshot": "screenshots/winblues7.png",
-      "screenshotAlt": "inblues7 Screenshot"
+      "screenshotAlt": "Winblues7 Screenshot"
+    },
+    {
+      "name": "Wunker OS",
+      "creator": "gmpinder",
+      "base": "bazzite-nvidia-open",
+      "template": "BlueBuild",
+      "feedback": "🤷‍♂️",
+      "link": "https://gitlab.com/wunker-bunker/wunker-os",
+      "screenshot": "screenshots/no-screenshot.png",
+      "screenshotAlt": "Wunker OS Screenshot"
     }
   ]
   
