@@ -19,7 +19,7 @@
       "link": "https://github.com/winblues/blue9",
       "screenshot": "screenshots/blue9.png",
       "screenshotAlt": "Blue9 Screenshot",
-      "devType": "bb-dev"
+      "devType": "ublue-dev"
     },
     {
       "name": "Blue95",
@@ -30,7 +30,7 @@
       "link": "https://github.com/winblues/blue95",
       "screenshot": "screenshots/blue95.png",
       "screenshotAlt": "Blue95 Screenshot",
-      "devType": "bb-dev"
+      "devType": "ublue-dev"
     },
     {
       "name": "BlueXP",
@@ -41,7 +41,7 @@
       "link": "https://github.com/winblues/bluexp",
       "screenshot": "screenshots/bluexp.png",
       "screenshotAlt": "BlueXP Screenshot",
-      "devType": "bb-dev"
+      "devType": "ublue-dev"
     },
     {
       "name": "BourbonOS",
@@ -63,7 +63,7 @@
       "link": "https://github.com/fiftydinar/gidro-os",
       "screenshot": "screenshots/gidro-os.png",
       "screenshotAlt": "Gidro-os Screenshot",
-      "devType": "ublue-dev"
+      "devType": "bb-dev"
     },
     {
       "name": "KompassOS",
@@ -85,7 +85,7 @@
       "link": "https://github.com/xynydev/linuXYZ",
       "screenshot": "screenshots/linuxyz.png",
       "screenshotAlt": "LinuXYZ Screenshot",
-      "devType": null
+      "devType": "bb-dev"
     },
     {
       "name": "Secureblue",
@@ -129,7 +129,7 @@
       "link": "https://github.com/winblues/vauxite",
       "screenshot": "screenshots/vauxite.png",
       "screenshotAlt": "Vauxite Screenshot",
-      "devType": "bb-dev"
+      "devType": "ublue-dev"
     },
     {
       "name": "Wayblue",
@@ -151,7 +151,7 @@
       "link": "https://github.com/winblues/winblues7",
       "screenshot": "screenshots/winblues7.png",
       "screenshotAlt": "Winblues7 Screenshot",
-      "devType": "bb-dev"
+      "devType": "ublue-dev"
     },
     {
       "name": "Wunker OS",
@@ -162,7 +162,7 @@
       "link": "https://gitlab.com/wunker-bunker/wunker-os",
       "screenshot": "screenshots/no-screenshot.png",
       "screenshotAlt": "Wunker OS Screenshot",
-      "devType": null
+      "devType": "bb-dev"
     }
   ]
   
