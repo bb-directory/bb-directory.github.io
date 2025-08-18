@@ -10,7 +10,8 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/askpng/atomic-t480s",
     "screenshot": "screenshots/atomic-t480s.png",
-    "screenshotAlt": "Atomic-t480s Screenshot"
+    "screenshotAlt": "Atomic-t480s Screenshot",
+    "devType": null
   },
   {
     "name": "Blue9",
@@ -20,7 +21,8 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/winblues/blue9",
     "screenshot": "screenshots/blue9.png",
-    "screenshotAlt": "Blue9 Screenshot"
+    "screenshotAlt": "Blue9 Screenshot",
+    "devType": "bb-dev"
   },
   {
     "name": "Blue95",
@@ -205,7 +207,11 @@ function renderProjects(projects) {
       
       <div class="project-info">
         <h3 class="project-name">${project.name}</h3>
-        <p class="project-creator">by ${project.creator}</p>
+        <p class="project-creator">
+          by ${project.creator}
+          ${project.devType === 'bb-dev' ? '<img src="icons/bb-dev-icon.png" alt="BlueBuild Developer" class="dev-icon bb-dev" title="BlueBuild Developer">' : ''}
+          ${project.devType === 'ublue-dev' ? '<img src="icons/ublue-dev-icon.png" alt="uBlue Developer" class="dev-icon ublue-dev" title="uBlue Developer">' : ''}
+        </p>
         
         <div class="project-details">
           <div class="project-detail">

@@ -180,6 +180,31 @@ main {
   color: #7f8c8d;
   font-size: 0.95rem;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dev-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  margin-left: 0.25rem;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+.dev-icon:hover {
+  opacity: 1;
+}
+
+.dev-icon.bb-dev {
+  filter: hue-rotate(0deg);
+}
+
+.dev-icon.ublue-dev {
+  filter: hue-rotate(0deg);
 }
 
 .project-details {

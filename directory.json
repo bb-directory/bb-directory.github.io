@@ -7,7 +7,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/askpng/atomic-t480s",
       "screenshot": "screenshots/atomic-t480s.png",
-      "screenshotAlt": "Atomic-t480s Screenshot"
+      "screenshotAlt": "Atomic-t480s Screenshot",
+      "devType": null
     },
     {
       "name": "Blue9",
@@ -17,7 +18,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/winblues/blue9",
       "screenshot": "screenshots/blue9.png",
-      "screenshotAlt": "Blue9 Screenshot"
+      "screenshotAlt": "Blue9 Screenshot",
+      "devType": "bb-dev"
     },
     {
       "name": "Blue95",
@@ -27,7 +29,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/winblues/blue95",
       "screenshot": "screenshots/blue95.png",
-      "screenshotAlt": "Blue95 Screenshot"
+      "screenshotAlt": "Blue95 Screenshot",
+      "devType": "bb-dev"
     },
     {
       "name": "BlueXP",
@@ -37,7 +40,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/winblues/bluexp",
       "screenshot": "screenshots/bluexp.png",
-      "screenshotAlt": "BlueXP Screenshot"
+      "screenshotAlt": "BlueXP Screenshot",
+      "devType": "bb-dev"
     },
     {
       "name": "BourbonOS",
@@ -47,7 +51,8 @@
       "feedback": "✅",
       "link": "https://github.com/bourbonOS/bourbonOS-devel",
       "screenshot": "screenshots/bourbonos.png",
-      "screenshotAlt": "BourbonOS Screenshot"
+      "screenshotAlt": "BourbonOS Screenshot",
+      "devType": null
     },
     {
       "name": "Gidro-OS",
@@ -57,7 +62,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/fiftydinar/gidro-os",
       "screenshot": "screenshots/gidro-os.png",
-      "screenshotAlt": "Gidro-os Screenshot"
+      "screenshotAlt": "Gidro-os Screenshot",
+      "devType": "ublue-dev"
     },
     {
       "name": "KompassOS",
@@ -67,7 +73,8 @@
       "feedback": "✅",
       "link": "https://github.com/L0g0ff/KompassOS",
       "screenshot": "screenshots/kompassos.png",
-      "screenshotAlt": "KompassOS Screenshot"
+      "screenshotAlt": "KompassOS Screenshot",
+      "devType": null
     },
     {
       "name": "LinuXYZ",
@@ -77,7 +84,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/xynydev/linuXYZ",
       "screenshot": "screenshots/linuxyz.png",
-      "screenshotAlt": "LinuXYZ Screenshot"
+      "screenshotAlt": "LinuXYZ Screenshot",
+      "devType": null
     },
     {
       "name": "Secureblue",
@@ -87,7 +95,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/secureblue/secureblue",
       "screenshot": "screenshots/secureblue.png",
-      "screenshotAlt": "secureblue Screenshot"
+      "screenshotAlt": "secureblue Screenshot",
+      "devType": null
     },
     {
       "name": "Stellarite",
@@ -97,7 +106,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/BillyAddlers/stellarite",
       "screenshot": "screenshots/stellarite.png",
-      "screenshotAlt": "stellarite Screenshot"
+      "screenshotAlt": "stellarite Screenshot",
+      "devType": null
     },
     {
       "name": "Sticky-OS",
@@ -107,7 +117,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/MrStickyPiston/Sticky-OS",
       "screenshot": "screenshots/sticky-os.png",
-      "screenshotAlt": "Sticky-OS screenshot"
+      "screenshotAlt": "Sticky-OS screenshot",
+      "devType": null
     },
     {
       "name": "Vauxite",
@@ -117,7 +128,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/winblues/vauxite",
       "screenshot": "screenshots/vauxite.png",
-      "screenshotAlt": "Vauxite Screenshot"
+      "screenshotAlt": "Vauxite Screenshot",
+      "devType": "bb-dev"
     },
     {
       "name": "Wayblue",
@@ -127,7 +139,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/wayblueorg/wayblue",
       "screenshot": "screenshots/wayblue.png",
-      "screenshotAlt": "Wayblue Screenshot"
+      "screenshotAlt": "Wayblue Screenshot",
+      "devType": null
     },
     {
       "name": "Winblues7",
@@ -137,7 +150,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://github.com/winblues/winblues7",
       "screenshot": "screenshots/winblues7.png",
-      "screenshotAlt": "Winblues7 Screenshot"
+      "screenshotAlt": "Winblues7 Screenshot",
+      "devType": "bb-dev"
     },
     {
       "name": "Wunker OS",
@@ -147,7 +161,8 @@
       "feedback": "🤷‍♂️",
       "link": "https://gitlab.com/wunker-bunker/wunker-os",
       "screenshot": "screenshots/no-screenshot.png",
-      "screenshotAlt": "Wunker OS Screenshot"
+      "screenshotAlt": "Wunker OS Screenshot",
+      "devType": null
     }
   ]
   
