@@ -13,6 +13,16 @@ const fallbackData = [
     "screenshotAlt": "Atomic-t480s Screenshot"
   },
   {
+    "name": "Blue9",
+    "creator": "ledif",
+    "base": "Vauxite",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/winblues/blue9",
+    "screenshot": "screenshots/blue9.png",
+    "screenshotAlt": "Blue9 Screenshot"
+  },
+  {
     "name": "Blue95",
     "creator": "ledif",
     "base": "Vauxite",
@@ -103,6 +113,16 @@ const fallbackData = [
     "screenshotAlt": "Sticky-OS screenshot"
   },
   {
+    "name": "Vauxite",
+    "creator": "ledif",
+    "base": "xfce-Atomic",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/winblues/vauxite",
+    "screenshot": "screenshots/vauxite.png",
+    "screenshotAlt": "Vauxite Screenshot"
+  },
+  {
     "name": "Wayblue",
     "creator": "wayblueorg",
     "base": "Fedora Silverblue",
@@ -111,6 +131,16 @@ const fallbackData = [
     "link": "https://github.com/wayblueorg/wayblue",
     "screenshot": "screenshots/wayblue.png",
     "screenshotAlt": "Wayblue Screenshot"
+  },
+  {
+    "name": "Winblues7",
+    "creator": "ledif",
+    "base": "bazzite-dx",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/winblues/winblues7",
+    "screenshot": "screenshots/winblues7.png",
+    "screenshotAlt": "inblues7 Screenshot"
   }
 ];
 
