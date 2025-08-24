@@ -127,7 +127,7 @@ const fallbackData = [
   {
     "name": "VexOS",
     "creator": "Victorytek",
-    "base": "Bazzite",
+    "base": "bazzite",
     "template": "BlueBuild",
     "feedback": "🤷‍♂️",
     "link": "https://github.com/VictoryTek/vex-os",
