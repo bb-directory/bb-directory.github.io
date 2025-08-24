@@ -125,6 +125,17 @@ const fallbackData = [
     "screenshotAlt": "Vauxite Screenshot"
   },
   {
+    "name": "VexOS",
+    "creator": "Victorytek",
+    "base": "Bazzite",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/VictoryTek/vex-os",
+    "screenshot": "screenshots/vex.png",
+    "screenshotAlt": "VexOS Screenshot",
+    "devType": null
+  },
+  {
     "name": "Wayblue",
     "creator": "wayblueorg",
     "base": "Fedora Silverblue",
