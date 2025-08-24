@@ -133,7 +133,6 @@ const fallbackData = [
     "link": "https://github.com/VictoryTek/vex-os",
     "screenshot": "screenshots/vex.png",
     "screenshotAlt": "VexOS Screenshot",
-    "devType": null
   },
   {
     "name": "Wayblue",
