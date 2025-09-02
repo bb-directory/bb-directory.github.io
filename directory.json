@@ -55,7 +55,8 @@
       "link": "https://github.com/bourbonOS/bourbonOS-devel",
       "screenshot": "screenshots/bourbonos.png",
       "screenshotAlt": "BourbonOS Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "A custom image focused on containerization, in a way similar to that of vanillaOS."
     },
     {
       "name": "Gidro-OS",
@@ -66,7 +67,8 @@
       "link": "https://github.com/fiftydinar/gidro-os",
       "screenshot": "screenshots/gidro-os.png",
       "screenshotAlt": "Gidro-os Screenshot",
-      "devType": "bb-dev"
+      "devType": "bb-dev",
+      "description": "My customized image, based on Fedora Silverblue."
     },
     {
       "name": "KompassOS",
@@ -77,7 +79,8 @@
       "link": "https://github.com/L0g0ff/KompassOS",
       "screenshot": "screenshots/kompassos.png",
       "screenshotAlt": "KompassOS Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "A developer-friendly operating system based on Fedora Silverblue Aurora"
     },
     {
       "name": "LinuXYZ",
@@ -88,7 +91,8 @@
       "link": "https://github.com/xynydev/linuXYZ",
       "screenshot": "screenshots/linuxyz.png",
       "screenshotAlt": "LinuXYZ Screenshot",
-      "devType": "bb-dev"
+      "devType": "bb-dev",
+      "description": "My personal custom image of Fedora Silverblue + Universal Blue"
     },
     {
       "name": "Secureblue",
@@ -99,7 +103,8 @@
       "link": "https://github.com/secureblue/secureblue",
       "screenshot": "screenshots/secureblue.png",
       "screenshotAlt": "secureblue Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "A security-focused desktop and server Linux operating system."
     },
     {
       "name": "Stellarite",
@@ -110,7 +115,8 @@
       "link": "https://github.com/BillyAddlers/stellarite",
       "screenshot": "screenshots/stellarite.png",
       "screenshotAlt": "stellarite Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "An opinionated Linux gaming distribution, powered by Fedora and Universal Blue."
     },
     {
       "name": "Sticky-OS",
@@ -121,7 +127,8 @@
       "link": "https://github.com/MrStickyPiston/Sticky-OS",
       "screenshot": "screenshots/sticky-os.png",
       "screenshotAlt": "Sticky-OS screenshot",
-      "devType": null
+      "devType": null,
+      "description": "An atomic Linux distro based on Fedora Kinoite optimized for productivity and ease of use."
     },
     {
       "name": "Vauxite",
@@ -132,7 +139,8 @@
       "link": "https://github.com/winblues/vauxite",
       "screenshot": "screenshots/vauxite.png",
       "screenshotAlt": "Vauxite Screenshot",
-      "devType": "ublue-dev"
+      "devType": "ublue-dev",
+      "description": "A modern and lightweight desktop experience based on Fedora Xfce Atomic. Batteries included."
     },
     {
       "name": "VexHTPC",

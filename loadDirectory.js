@@ -24,7 +24,7 @@ const fallbackData = [
     "screenshot": "screenshots/blue9.png",
     "screenshotAlt": "Blue9 Screenshot",
     "devType": "bb-dev",
-    "description": "Windows 9 inspired immutable desktop build." 
+    "description": "A modern and lightweight Linux desktop experience with the look of classic Macs." 
   },
   {
     "name": "Blue95",
@@ -34,7 +34,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/winblues/blue95",
     "screenshot": "screenshots/blue95.png",
-    "screenshotAlt": "Blue95 Screenshot"
+    "screenshotAlt": "Blue95 Screenshot",
+    "devType": null,
+    "description": "A modern and lightweight desktop experience that is reminiscent of a bygone era of computing."
   },
   {
     "name": "BlueXP",
@@ -44,7 +46,8 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/winblues/bluexp",
     "screenshot": "screenshots/bluexp.png",
-    "screenshotAlt": "BlueXP Screenshot"
+    "screenshotAlt": "BlueXP Screenshot",
+    "devType": "ublue-dev"
   },
   {
     "name": "BourbonOS",
@@ -54,7 +57,9 @@ const fallbackData = [
     "feedback": "✅",
     "link": "https://github.com/bourbonOS/bourbonOS-devel",
     "screenshot": "screenshots/bourbonos.png",
-    "screenshotAlt": "BourbonOS Screenshot"
+    "screenshotAlt": "BourbonOS Screenshot",
+    "devType": null,
+    "description": "A custom image focused on containerization, in a way similar to that of vanillaOS."
   },
   {
     "name": "Gidro-OS",
@@ -64,7 +69,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/fiftydinar/gidro-os",
     "screenshot": "screenshots/gidro-os.png",
-    "screenshotAlt": "Gidro-os Screenshot"
+    "screenshotAlt": "Gidro-os Screenshot",
+      "devType": "bb-dev",
+      "description": "My customized image, based on Fedora Silverblue."
   },
   {
     "name": "KompassOS",
@@ -74,7 +81,9 @@ const fallbackData = [
     "feedback": "✅",
     "link": "https://github.com/L0g0ff/KompassOS",
     "screenshot": "screenshots/kompassos.png",
-    "screenshotAlt": "KompassOS Screenshot"
+    "screenshotAlt": "KompassOS Screenshot",
+    "devType": null,
+    "description": "A developer-friendly operating system based on Fedora Silverblue Aurora"
   },
   {
     "name": "LinuXYZ",
@@ -84,7 +93,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/xynydev/linuXYZ",
     "screenshot": "screenshots/linuxyz.png",
-    "screenshotAlt": "LinuXYZ Screenshot"
+    "screenshotAlt": "LinuXYZ Screenshot",
+    "devType": "bb-dev",
+    "description": "My personal custom image of Fedora Silverblue + Universal Blue"
   },
   {
     "name": "Secureblue",
@@ -94,7 +105,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/secureblue/secureblue",
     "screenshot": "screenshots/secureblue.png",
-    "screenshotAlt": "secureblue Screenshot"
+    "screenshotAlt": "secureblue Screenshot",
+    "devType": null,
+    "description": "A security-focused desktop and server Linux operating system."
   },
   {
     "name": "Stellarite",
@@ -104,7 +117,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/BillyAddlers/stellarite",
     "screenshot": "screenshots/stellarite.png",
-    "screenshotAlt": "stellarite Screenshot"
+    "screenshotAlt": "stellarite Screenshot",
+    "devType": null,
+    "description": "An opinionated Linux gaming distribution, powered by Fedora and Universal Blue."
   },
   {
     "name": "Sticky-OS",
@@ -114,7 +129,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/MrStickyPiston/Sticky-OS",
     "screenshot": "screenshots/sticky-os.png",
-    "screenshotAlt": "Sticky-OS screenshot"
+    "screenshotAlt": "Sticky-OS screenshot",
+    "devType": null,
+    "description": "An atomic Linux distro based on Fedora Kinoite optimized for productivity and ease of use."
   },
   {
     "name": "Vauxite",
@@ -124,7 +141,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/winblues/vauxite",
     "screenshot": "screenshots/vauxite.png",
-    "screenshotAlt": "Vauxite Screenshot"
+    "screenshotAlt": "Vauxite Screenshot",
+    "devType": "ublue-dev",
+    "description": "A modern and lightweight desktop experience based on Fedora Xfce Atomic. Batteries included."
   },
   {
     "name": "VexHTPC",
