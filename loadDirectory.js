@@ -11,7 +11,8 @@ const fallbackData = [
     "link": "https://github.com/askpng/atomic-t480s",
     "screenshot": "screenshots/atomic-t480s.png",
     "screenshotAlt": "Atomic-t480s Screenshot",
-    "devType": null
+    "devType": null,
+    "description": "Optimized Fedora Silverblue image tailored for ThinkPad T480s hardware." 
   },
   {
     "name": "Blue9",
@@ -22,7 +23,8 @@ const fallbackData = [
     "link": "https://github.com/winblues/blue9",
     "screenshot": "screenshots/blue9.png",
     "screenshotAlt": "Blue9 Screenshot",
-    "devType": "bb-dev"
+    "devType": "bb-dev",
+    "description": "Windows 9 inspired immutable desktop build." 
   },
   {
     "name": "Blue95",
@@ -232,7 +234,7 @@ function renderProjects(projects) {
           ${project.devType === 'bb-dev' ? '<img src="icons/bb-dev-icon.png" alt="BlueBuild Developer" class="dev-icon bb-dev" title="BlueBuild Developer">' : ''}
           ${project.devType === 'ublue-dev' ? '<img src="icons/ublue-dev-icon.png" alt="uBlue Developer" class="dev-icon ublue-dev" title="uBlue Developer">' : ''}
         </p>
-        
+        ${project.description ? `<p class="project-description">${project.description}</p>` : ''}
         <div class="project-details">
           <div class="project-detail">
             <span class="project-detail-label">Base</span>
@@ -308,4 +310,4 @@ function setupSearchAndFilter() {
     renderProjects(filteredProjects);
   }
 }
-  
+

@@ -8,7 +8,8 @@
       "link": "https://github.com/askpng/atomic-t480s",
       "screenshot": "screenshots/atomic-t480s.png",
       "screenshotAlt": "Atomic-t480s Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "Optimized Fedora Silverblue image tailored for ThinkPad T480s hardware." 
     },
     {
       "name": "Blue9",
@@ -19,7 +20,8 @@
       "link": "https://github.com/winblues/blue9",
       "screenshot": "screenshots/blue9.png",
       "screenshotAlt": "Blue9 Screenshot",
-      "devType": "ublue-dev"
+      "devType": "ublue-dev",
+      "description": "A Windows 9 inspired immutable desktop built on Vauxite." 
     },
     {
       "name": "Blue95",
@@ -30,7 +32,8 @@
       "link": "https://github.com/winblues/blue95",
       "screenshot": "screenshots/blue95.png",
       "screenshotAlt": "Blue95 Screenshot",
-      "devType": "ublue-dev"
+      "devType": "ublue-dev",
+      "description": "Classic Win95 aesthetic on a modern BlueBuild base." 
     },
     {
       "name": "BlueXP",
@@ -187,4 +190,4 @@
       "devType": "bb-dev"
     }
   ]
-  
+

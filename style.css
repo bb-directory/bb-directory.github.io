@@ -287,6 +287,20 @@ main {
   box-shadow: 0 6px 20px rgba(77, 166, 255, 0.4);
 }
 
+/* Project description */
+.project-description {
+  font-size: 0.85rem;
+  line-height: 1.3;
+  color: #4d5b63;
+  margin: -0.25rem 0 0.85rem 0; /* tuck under creator line if present */
+  max-height: 3.4em; /* ~2 lines clamp fallback */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* allow up to 3 lines */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
 footer {
   text-align: center;
   padding: 3rem 2rem;
