@@ -21,7 +21,7 @@
       "screenshot": "screenshots/blue9.png",
       "screenshotAlt": "Blue9 Screenshot",
       "devType": "ublue-dev",
-      "description": "A Windows 9 inspired immutable desktop built on Vauxite." 
+      "description": "A modern and lightweight Linux desktop experience with the look of classic Macs." 
     },
     {
       "name": "Blue95",
@@ -33,7 +33,7 @@
       "screenshot": "screenshots/blue95.png",
       "screenshotAlt": "Blue95 Screenshot",
       "devType": "ublue-dev",
-      "description": "Classic Win95 aesthetic on a modern BlueBuild base." 
+      "description": "A modern and lightweight desktop experience that is reminiscent of a bygone era of computing."
     },
     {
       "name": "BlueXP",
