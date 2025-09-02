@@ -234,7 +234,7 @@ function renderProjects(projects) {
           ${project.devType === 'bb-dev' ? '<img src="icons/bb-dev-icon.png" alt="BlueBuild Developer" class="dev-icon bb-dev" title="BlueBuild Developer">' : ''}
           ${project.devType === 'ublue-dev' ? '<img src="icons/ublue-dev-icon.png" alt="uBlue Developer" class="dev-icon ublue-dev" title="uBlue Developer">' : ''}
         </p>
-        ${project.description ? `<p class="project-description">${project.description}</p>` : ''}
+        ${project.description ? `<div class="project-description-block"><div class="project-section-header">DESCRIPTION</div><p class="project-description">${project.description}</p></div>` : ''}
         <div class="project-details">
           <div class="project-detail">
             <span class="project-detail-label">Base</span>
