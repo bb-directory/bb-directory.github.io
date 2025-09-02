@@ -125,6 +125,16 @@ const fallbackData = [
     "screenshotAlt": "Vauxite Screenshot"
   },
   {
+    "name": "VexHTPC",
+    "creator": "Victorytek",
+    "base": "Fedora Silverblue",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/VictoryTek/vex-htpc",
+    "screenshot": "screenshots/vex-htpc.png",
+    "screenshotAlt": "VexHTPC Screenshot",
+  },
+  {
     "name": "VexOS",
     "creator": "Victorytek",
     "base": "bazzite",
