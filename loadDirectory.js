@@ -71,7 +71,7 @@ const fallbackData = [
     "screenshot": "screenshots/galtzo-os.png",
     "screenshotAlt": "Galtzo-os Screenshot",
     "devType": null,
-    "description": "An Atomic Fedora Universal Blue Aurora HWE DX Spin (Bazzite Kernel) w/ Ruby, 1Password, & NordVPN."
+    "description": "Aurora HWE DX Spin (Bazzite Kernel) w/ Ruby, 1Password, & NordVPN."
   },
   {
     "name": "Gidro-OS",
