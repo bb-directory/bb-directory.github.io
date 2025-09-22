@@ -61,14 +61,14 @@
     {
       "name": "Galtzo-OS",
       "creator": "pboling",
-      "base": "Fedora Silverblue",
+      "base": "Aurora DX (HWE)",
       "template": "BlueBuild",
       "feedback": "🤷‍♂️",
       "link": "https://github.com/fiftydinar/galtzo-os",
       "screenshot": "screenshots/galtzo-os.png",
       "screenshotAlt": "Galtzo-os Screenshot",
       "devType": null,
-      "description": "This image is based on aurora-dx-hwe:latest. A new version / build is released daily."
+      "description": "Aurora DX (HWE) with NordVPN, 1Password, and other tweaks."
     },
     {
       "name": "Gidro-OS",
