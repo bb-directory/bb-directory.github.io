@@ -163,7 +163,8 @@
       "link": "https://github.com/VictoryTek/vex-htpc",
       "screenshot": "screenshots/vex-htpc.png",
       "screenshotAlt": "VexHTPC Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "An HTPC image configured for media consumption."
     },
     {
       "name": "VexOS",
@@ -174,7 +175,8 @@
       "link": "https://github.com/VictoryTek/vex-os",
       "screenshot": "screenshots/vex-os.png",
       "screenshotAlt": "VexOS Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "A universal OS with batteries included. Built on bazzite with developer-friendly, and productivity packages."
     },
     {
       "name": "Wayblue",
@@ -185,7 +187,8 @@
       "link": "https://github.com/wayblueorg/wayblue",
       "screenshot": "screenshots/wayblue.png",
       "screenshotAlt": "Wayblue Screenshot",
-      "devType": null
+      "devType": null,
+      "description": "Fedora Atomic images for wayland compositors"
     },
     {
       "name": "Winblues7",
@@ -196,7 +199,8 @@
       "link": "https://github.com/winblues/winblues7",
       "screenshot": "screenshots/winblues7.png",
       "screenshotAlt": "Winblues7 Screenshot",
-      "devType": "ublue-dev"
+      "devType": "ublue-dev",
+      "description": "A bootable container built on top of Bazzite and AeroThemePlasma."
     },
     {
       "name": "Wunker OS",

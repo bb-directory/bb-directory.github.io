@@ -82,8 +82,8 @@ const fallbackData = [
     "link": "https://github.com/fiftydinar/gidro-os",
     "screenshot": "screenshots/gidro-os.png",
     "screenshotAlt": "Gidro-os Screenshot",
-      "devType": "bb-dev",
-      "description": "My customized image, based on Fedora Silverblue."
+    "devType": "bb-dev",
+    "description": "My customized image, based on Fedora Silverblue."
   },
   {
     "name": "KompassOS",
@@ -166,6 +166,8 @@ const fallbackData = [
     "link": "https://github.com/VictoryTek/vex-htpc",
     "screenshot": "screenshots/vex-htpc.png",
     "screenshotAlt": "VexHTPC Screenshot",
+    "devType": null,
+    "description": "An HTPC image configured for media consumption."
   },
   {
     "name": "VexOS",
@@ -176,6 +178,8 @@ const fallbackData = [
     "link": "https://github.com/VictoryTek/vex-os",
     "screenshot": "screenshots/vex.png",
     "screenshotAlt": "VexOS Screenshot",
+    "devType": null,
+    "description": "A universal OS with batteries included. Built on bazzite with developer-friendly, and productivity packages."
   },
   {
     "name": "Wayblue",
@@ -185,7 +189,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/wayblueorg/wayblue",
     "screenshot": "screenshots/wayblue.png",
-    "screenshotAlt": "Wayblue Screenshot"
+    "screenshotAlt": "Wayblue Screenshot",
+    "devType": null,
+    "description": "Fedora Atomic images for wayland compositors"
   },
   {
     "name": "Winblues7",
@@ -195,7 +201,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://github.com/winblues/winblues7",
     "screenshot": "screenshots/winblues7.png",
-    "screenshotAlt": "Winblues7 Screenshot"
+    "screenshotAlt": "Winblues7 Screenshot",
+    "devType": null,
+    "description": "A bootable container built on top of Bazzite and AeroThemePlasma."
   },
   {
     "name": "Wunker OS",
@@ -205,8 +213,9 @@ const fallbackData = [
     "feedback": "🤷‍♂️",
     "link": "https://gitlab.com/wunker-bunker/wunker-os",
     "screenshot": "screenshots/no-screenshot.png",
-    "screenshotAlt": "Wunker OS Screenshot"
-  }
+    "screenshotAlt": "Wunker OS Screenshot",
+    "devType": null,
+  },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
