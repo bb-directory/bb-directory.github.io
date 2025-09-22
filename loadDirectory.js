@@ -67,11 +67,11 @@ const fallbackData = [
     "base": "Aurora DX (HWE)",
     "template": "BlueBuild",
     "feedback": "🤷‍♂️",
-    "link": "https://github.com/fiftydinar/galtzo-os",
+    "link": "https://github.com/pboling/galtzo-os",
     "screenshot": "screenshots/galtzo-os.png",
     "screenshotAlt": "Galtzo-os Screenshot",
     "devType": null,
-    "description": "Aurora DX (HWE) with NordVPN, 1Password, and other tweaks."
+    "description": "An Atomic Fedora Universal Blue Aurora HWE DX Spin (Bazzite Kernel) w/ Ruby, 1Password, & NordVPN."
   },
   {
     "name": "Gidro-OS",
