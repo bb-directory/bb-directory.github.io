@@ -351,3 +351,23 @@ function setupSearchAndFilter() {
   }
 }
 
+// Back to Top button logic
+(function initBackToTop(){
+  const btn = document.getElementById('back-to-top');
+  if(!btn) return;
+  const showAfter = 500; // px
+  function toggle(){
+    if(window.scrollY > showAfter) btn.classList.add('show'); else btn.classList.remove('show');
+  }
+  window.addEventListener('scroll', toggle, { passive: true });
+  toggle();
+  btn.addEventListener('click', () => {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(prefersReduced) {
+      window.scrollTo(0,0);
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+})();
+
