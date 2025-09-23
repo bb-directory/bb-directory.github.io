@@ -110,6 +110,18 @@ const fallbackData = [
     "description": "My personal custom image of Fedora Silverblue + Universal Blue"
   },
   {
+    "name": "myOS",
+    "creator": "nobodywatchin",
+    "base": "Fedora bootc",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/nobodywatchin/myOS",
+    "screenshot": "screenshots/myos-fedora.png",
+    "screenshotAlt": "myOS Screenshot",
+    "devType": "ublue-dev",
+    "description": "An operating system dedicated to being user-friendly and progressive.",
+  },
+  {
     "name": "Secureblue",
     "creator": "RoyalOughtness",
     "base": "Fedora Silverblue",
