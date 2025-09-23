@@ -22,8 +22,6 @@
       "screenshotAlt": "Blue9 Screenshot",
       "devType": "ublue-dev",
       "description": "A modern and lightweight Linux desktop experience with the look of classic Macs.",
-      "logo": "logos/blue9.png",
-      "logoAlt": "Blue9 Logo" 
     },
     {
       "name": "Blue95",
@@ -36,8 +34,6 @@
       "screenshotAlt": "Blue95 Screenshot",
       "devType": "ublue-dev",
       "description": "A modern and lightweight desktop experience that is reminiscent of a bygone era of computing.",
-      "logo": "logos/blue95.png",
-      "logoAlt": "Blue95 Logo"
     },
     {
       "name": "BlueXP",
