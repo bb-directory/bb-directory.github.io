@@ -178,7 +178,9 @@
       "screenshot": "screenshots/vex-htpc.png",
       "screenshotAlt": "VexHTPC Screenshot",
       "devType": null,
-      "description": "An HTPC image configured for media consumption."
+      "description": "An HTPC image configured for media consumption.",
+      "logo": "logos/vexhtpc.png",
+      "logoAlt": "VexHTPC Logo"
     },
     {
       "name": "VexOS",
@@ -190,7 +192,9 @@
       "screenshot": "screenshots/vex-os.png",
       "screenshotAlt": "VexOS Screenshot",
       "devType": null,
-      "description": "A universal OS with batteries included. Built on bazzite with developer-friendly, and productivity packages."
+      "description": "A universal OS with batteries included. Built on bazzite with developer-friendly, and productivity packages.",
+      "logo": "logos/vexos.png",
+      "logoAlt": "VexOS Logo"
     },
     {
       "name": "Wayblue",
