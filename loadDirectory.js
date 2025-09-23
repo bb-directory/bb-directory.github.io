@@ -261,9 +261,14 @@ function renderProjects(projects) {
     else if (project.feedback === '❌') feedbackClass = 'feedback-no';
 
     card.innerHTML = `
-      <div class="project-screenshot">
-        <a href="${project.screenshot}" target="_blank">
-          <img src="${project.screenshot}" alt="${project.screenshotAlt}" loading="lazy" />
+      <div class="project-screenshot ${project.logo ? 'has-logo' : ''}">
+        <a href="${project.screenshot}" target="_blank" class="screenshot-link">
+          ${project.logo ? `
+            <img src="${project.logo}" alt="${project.logoAlt || project.name + ' Logo'}" class="project-logo" loading="lazy" />
+            <img src="${project.screenshot}" alt="${project.screenshotAlt}" class="screenshot hover-shot" loading="lazy" />
+          ` : `
+            <img src="${project.screenshot}" alt="${project.screenshotAlt}" class="screenshot" loading="lazy" />
+          `}
         </a>
       </div>
       

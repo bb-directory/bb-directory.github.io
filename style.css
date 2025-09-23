@@ -462,3 +462,18 @@ footer a:hover {
     font-size: 0.8rem;
   }
 }
+
+/* Logo / Screenshot Swap */
+.project-screenshot.has-logo { position: relative; }
+.project-screenshot.has-logo .project-logo,
+.project-screenshot.has-logo .screenshot { position: absolute; top:0; left:0; width:100%; height:100%; object-fit: cover; }
+.project-screenshot.has-logo .project-logo { z-index: 1; transition: opacity .35s ease, transform .5s ease; }
+.project-screenshot.has-logo .hover-shot { opacity: 0; z-index: 2; transition: opacity .4s ease; }
+.project-card:hover .project-screenshot.has-logo .project-logo,
+.project-card:focus-within .project-screenshot.has-logo .project-logo { opacity: 0; transform: scale(1.04); }
+.project-card:hover .project-screenshot.has-logo .hover-shot,
+.project-card:focus-within .project-screenshot.has-logo .hover-shot { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .project-screenshot.has-logo .project-logo,
+  .project-screenshot.has-logo .hover-shot { transition: none; }
+}
