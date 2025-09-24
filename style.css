@@ -382,6 +382,7 @@ main {
 .back-to-top.show { opacity: 1; visibility: visible; transform: translateY(0) scale(1); }
 @media (prefers-reduced-motion: reduce) {
   .back-to-top { transition: none; }
+.feedback-key { text-align: center; margin: 0.5rem 0 1rem; }
 }
 
 /* Footer */

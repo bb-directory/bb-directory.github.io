@@ -76,7 +76,7 @@
       "base": "Fedora Silverblue",
       "template": "BlueBuild",
       "feedback": "🤷‍♂️",
-      "link": "https://github.com/fiftydinar/galtzo-os",
+      "link": "https://github.com/fiftydinar/gidro-os",
       "screenshot": "screenshots/gidro-os.png",
       "screenshotAlt": "Gidro-os Screenshot",
       "devType": "bb-dev",
