@@ -383,6 +383,7 @@ main {
 @media (prefers-reduced-motion: reduce) {
   .back-to-top { transition: none; }
 .feedback-key { text-align: center; margin: 0.5rem 0 1rem; }
+.maintenance-key { text-align: center; margin: -0.25rem 0 1.1rem; }
 }
 
 /* Footer */
