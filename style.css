@@ -36,23 +36,27 @@ header h1 {
   margin-bottom: 1rem; 
   flex-wrap: wrap;
 }
-.site-logo { 
-  width: 80px; 
-  height: 80px; 
-  border-radius: 16px; 
-  box-shadow: 0 4px 14px rgba(0,0,0,0.35); 
-  background: radial-gradient(circle at 30% 30%, #5db1ff, #1e3a5f); 
-  object-fit: cover; 
-  image-rendering: -webkit-optimize-contrast; 
-  transition: transform .5s ease, box-shadow .4s ease; 
+.site-logo {
+  width: auto;
+  max-height: 120px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  transition: transform .4s ease, filter .35s ease;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.4));
 }
-.site-logo:hover { 
-  transform: rotate(-6deg) scale(1.05); 
-  box-shadow: 0 8px 24px rgba(0,0,0,0.45); 
+.site-logo:hover {
+  transform: scale(1.05);
 }
-@media (max-width: 600px) { 
-  .site-logo { width: 64px; height: 64px; border-radius: 14px; } 
-  .site-heading { gap: .9rem; }
+.site-heading h1 { margin: 0; }
+@media (max-width: 900px) {
+  .site-logo { max-height: 100px; }
+}
+@media (max-width: 600px) {
+  .site-logo { max-height: 72px; }
+  .site-heading { gap: .75rem; }
 }
 
 header p {
