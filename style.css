@@ -38,7 +38,7 @@ header h1 {
 }
 .site-logo {
   width: auto;
-  max-height: 120px;
+  max-height: 160px;
   height: auto;
   display: block;
   object-fit: contain;
@@ -52,10 +52,10 @@ header h1 {
 }
 .site-heading h1 { margin: 0; }
 @media (max-width: 900px) {
-  .site-logo { max-height: 100px; }
+  .site-logo { max-height: 130px; }
 }
 @media (max-width: 600px) {
-  .site-logo { max-height: 72px; }
+  .site-logo { max-height: 90px; }
   .site-heading { gap: .75rem; }
 }
 
@@ -135,9 +135,9 @@ main {
 }
 
 .filter-btn.active {
-  background: linear-gradient(135deg, #4da6ff, #3d8bfe);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #a6dfff, #82c9f5);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 /* Card Grid Layout */
@@ -170,7 +170,7 @@ main {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #4da6ff, #3d8bfe);
+  background: linear-gradient(90deg, #a6dfff, #82c9f5);
 }
 
 .project-card:hover {
@@ -308,21 +308,21 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #4da6ff, #3d8bfe);
-  color: white;
+  background: linear-gradient(135deg, #a6dfff, #82c9f5);
+  color: #0d2a3a;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
   border-radius: 25px;
   font-weight: 600;
   transition: all 0.3s ease;
   margin-top: auto;
-  box-shadow: 0 4px 12px rgba(77, 166, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(166, 223, 255, 0.55);
 }
 
 .project-link:hover {
-  background: linear-gradient(135deg, #3d8bfe, #4da6ff);
+  background: linear-gradient(135deg, #b8e6ff, #7dc2ed);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(77, 166, 255, 0.4);
+  box-shadow: 0 6px 20px rgba(166, 223, 255, 0.7);
 }
 
 /* Description block */
@@ -357,8 +357,8 @@ main {
   height: 42px;
   border-radius: 50%;
   border: none;
-  background: linear-gradient(135deg, #3498db, #1d6fa5);
-  color: #fff;
+  background: linear-gradient(135deg, #a6dfff, #6fb4d8);
+  color: #0d2a3a;
   font-size: 1.35rem;
   line-height: 1;
   cursor: pointer;
@@ -374,7 +374,7 @@ main {
 }
 .back-to-top:hover,
 .back-to-top:focus-visible {
-  background: linear-gradient(135deg, #3fa8ef, #2181c3);
+  background: linear-gradient(135deg, #bde9ff, #6aa8c9);
   outline: none;
   transform: translateY(0) scale(1);
 }
