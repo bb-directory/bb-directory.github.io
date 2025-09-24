@@ -212,7 +212,9 @@
       "screenshot": "screenshots/wayblue.png",
       "screenshotAlt": "Wayblue Screenshot",
       "devType": null,
-      "description": "Fedora Atomic images for wayland compositors"
+      "description": "Fedora Atomic images for wayland compositors",
+      "logo": "logos/wayblue.png",
+      "logoAlt": "Wayblue Logo"
     },
     {
       "name": "Winblues7",
