@@ -320,26 +320,27 @@ function renderProjects(projects) {
           </div>
         </div>
         
-        <div class="feedback-container">
-          <span class="project-detail-label">Seeking Feedback</span>
-          <span class="feedback-status" title="${feedbackDisplay.label}">${feedbackDisplay.emoji}</span>
+        <div class="project-status-footer">
+          <div class="feedback-container status-row">
+            <span class="project-detail-label">Seeking Feedback</span>
+            <span class="feedback-status" title="${feedbackDisplay.label}">${feedbackDisplay.emoji}</span>
+          </div>
+          <div class="feedback-container maintenance-container status-row">
+            <span class="project-detail-label">Maintenance Status</span>
+            <span class="maintenance-status" title="${(project.maintenance || 'active').charAt(0).toUpperCase() + (project.maintenance || 'active').slice(1)}">
+              ${(() => {
+                const state = (project.maintenance || 'active').toLowerCase();
+                if (state === 'active') return '🟢';
+                if (state === 'deprecated') return '🛑';
+                if (state === 'paused') return '⚠️';
+                return '❓';
+              })()}
+            </span>
+          </div>
+          <a href="${project.link}" target="_blank" class="project-link">
+            View Project →
+          </a>
         </div>
-        <div class="feedback-container maintenance-container">
-          <span class="project-detail-label">Maintenance Status</span>
-          <span class="maintenance-status" title="${(project.maintenance || 'active').charAt(0).toUpperCase() + (project.maintenance || 'active').slice(1)}">
-            ${(() => {
-              const state = (project.maintenance || 'active').toLowerCase();
-              if (state === 'active') return '🟢';
-              if (state === 'deprecated') return '🛑';
-              if (state === 'paused') return '⚠️';
-              return '❓';
-            })()}
-          </span>
-        </div>
-        
-        <a href="${project.link}" target="_blank" class="project-link">
-          View Project →
-        </a>
       </div>
     `;
 

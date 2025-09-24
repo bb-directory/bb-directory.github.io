@@ -250,7 +250,7 @@
     {
       "name": "Wunker OS",
       "creator": "gmpinder",
-      "base": "bazzite-nvidia-open",
+      "base": "fedora-ostree-desktops",
       "template": "BlueBuild",
       "feedback": "🤷‍♂️",
       "maintenance": "active",

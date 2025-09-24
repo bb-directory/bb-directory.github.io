@@ -296,6 +296,24 @@ main {
 
 .maintenance-status { font-size: 1.05rem; }
 
+/* Pinned status/footer area */
+.project-status-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+.project-status-footer .status-row {
+  margin: 0;
+}
+.project-status-footer .feedback-container {
+  margin: 0;
+}
+/* Remove old negative margin now that footer is structured */
+.project-status-footer .maintenance-container { margin-top: 0; }
+
 .project-link {
   display: inline-flex;
   align-items: center;
