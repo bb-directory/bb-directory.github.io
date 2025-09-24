@@ -7,7 +7,7 @@ const fallbackData = [
     "creator": "askpng",
     "base": "Fedora Silverblue",
     "template": "BlueBuild",
-    "feedback": "🤷‍♂️",
+    "feedback": "✅",
     "link": "https://github.com/askpng/atomic-t480s",
     "screenshot": "screenshots/atomic-t480s.png",
     "screenshotAlt": "Atomic-t480s Screenshot",
