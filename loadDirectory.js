@@ -62,6 +62,19 @@ const fallbackData = [
     "description": "A custom image focused on containerization, in a way similar to that of vanillaOS."
   },
   {
+    "name": "Cosmium",
+    "creator": "Lumaeris",
+    "base": "Fedora COSMIC Atomic",
+    "template": "BlueBuild",
+    "feedback": "yes",
+    "maintenance": "active",
+    "link": "https://github.com/Cosmium-OS/Cosmium",
+    "screenshot": "screenshots/cosmium.png",
+    "screenshotAlt": "Cosmium Screenshot",
+    "devType": null,
+    "description": "A minimal gaming atomic operating system with COSMIC de, providing the experience for desktops and gaming handhelds (primarily Steam Deck). Work in progress.."
+  },
+  {
     "name": "Galtzo-OS",
     "creator": "pboling",
     "base": "Aurora DX (HWE)",
