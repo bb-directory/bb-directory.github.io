@@ -132,7 +132,9 @@
       "screenshot": "screenshots/secureblue.png",
       "screenshotAlt": "secureblue Screenshot",
       "devType": null,
-      "description": "A security-focused desktop and server Linux operating system."
+      "description": "A security-focused desktop and server Linux operating system.",
+      "logo": "logos/secureblue.png",
+      "logoAlt": "Secureblue Logo"
     },
     {
       "name": "Stellarite",
@@ -144,7 +146,9 @@
       "screenshot": "screenshots/stellarite.png",
       "screenshotAlt": "stellarite Screenshot",
       "devType": null,
-      "description": "An opinionated Linux gaming distribution, powered by Fedora and Universal Blue."
+      "description": "An opinionated Linux gaming distribution, powered by Fedora and Universal Blue.",
+      "logo": "logos/stellarite.png",
+      "logoAlt": "Stellarite Logo"
     },
     {
       "name": "Sticky-OS",
