@@ -2,7 +2,7 @@
     {
       "name": "Atomic-t480s",
       "creator": "askpng",
-      "base": "Fedora Silverblue",
+      "base": "Fedora Silverblue & Kinoite",
       "template": "BlueBuild",
   "feedback": "yes",
       "maintenance": "active",
@@ -10,7 +10,7 @@
       "screenshot": "screenshots/atomic-t480s.png",
       "screenshotAlt": "Atomic-t480s Screenshot",
       "devType": null,
-      "description": "Optimized Fedora Silverblue image tailored for ThinkPad T480s hardware." 
+      "description": "Optimized image tailored for ThinkPad T480s hardware." 
     },
     {
       "name": "Blue9",
