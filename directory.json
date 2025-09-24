@@ -21,7 +21,7 @@
       "screenshot": "screenshots/blue9.png",
       "screenshotAlt": "Blue9 Screenshot",
       "devType": "ublue-dev",
-      "description": "A modern and lightweight Linux desktop experience with the look of classic Macs."
+      "description": "A modern desktop with an OS9 look."
     },
     {
       "name": "Blue95",
@@ -33,7 +33,7 @@
       "screenshot": "screenshots/blue95.png",
       "screenshotAlt": "Blue95 Screenshot",
       "devType": "ublue-dev",
-      "description": "A modern and lightweight desktop experience that is reminiscent of a bygone era of computing."
+      "description": "A desktop for your childhood home's computer room."
     },
     {
       "name": "BlueXP",
@@ -44,7 +44,8 @@
       "link": "https://github.com/winblues/bluexp",
       "screenshot": "screenshots/bluexp.png",
       "screenshotAlt": "BlueXP Screenshot",
-      "devType": "ublue-dev"
+      "devType": "ublue-dev",
+      "description": "Fedora XP?"
     },
     {
       "name": "BourbonOS",
