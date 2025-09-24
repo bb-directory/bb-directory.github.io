@@ -268,12 +268,26 @@ function renderProjects(projects) {
     card.setAttribute('data-feedback', project.feedback);
     
   // Normalize legacy feedback emojis to new set (💬 seeking, 🚫 not seeking, 🤷‍♂️ unknown)
-  const rawFeedback = (project.feedback || '').trim();
-  let feedbackDisplay = rawFeedback;
-  if (rawFeedback === '✅') feedbackDisplay = '💬';
-  else if (rawFeedback === '❌') feedbackDisplay = '🚫';
-  else if (rawFeedback.startsWith('🤷')) feedbackDisplay = '🤷‍♂️';
-  // If user already updated JSON to the new emojis, they pass through.
+    // Feedback mapping: accept 'yes' | 'no' | 'unknown' OR legacy emojis
+    const rawFeedback = (project.feedback || '').toString().trim().toLowerCase();
+    let feedbackKey;
+    if (['yes','no','unknown'].includes(rawFeedback)) {
+      feedbackKey = rawFeedback;
+    } else if (rawFeedback === '✅' || rawFeedback === '💬') {
+      feedbackKey = 'yes';
+    } else if (rawFeedback === '❌' || rawFeedback === '🚫') {
+      feedbackKey = 'no';
+    } else if (rawFeedback.startsWith('🤷')) {
+      feedbackKey = 'unknown';
+    } else {
+      feedbackKey = 'unknown';
+    }
+    const feedbackMap = {
+      yes:   { emoji: '💬', label: 'Seeking Feedback' },
+      no:    { emoji: '🚫', label: 'Not Seeking Feedback' },
+      unknown: { emoji: '🤷‍♂️', label: 'Feedback Unknown' }
+    };
+    const feedbackDisplay = feedbackMap[feedbackKey];
 
     card.innerHTML = `
       <div class="project-screenshot ${project.logo ? 'has-logo' : ''}">
@@ -308,11 +322,19 @@ function renderProjects(projects) {
         
         <div class="feedback-container">
           <span class="project-detail-label">Seeking Feedback</span>
-          <span class="feedback-status">${feedbackDisplay}</span>
+          <span class="feedback-status" title="${feedbackDisplay.label}">${feedbackDisplay.emoji}</span>
         </div>
         <div class="feedback-container maintenance-container">
           <span class="project-detail-label">Maintenance Status</span>
-          <span class="maintenance-status" title="Active">🟢</span>
+          <span class="maintenance-status" title="${(project.maintenance || 'active').charAt(0).toUpperCase() + (project.maintenance || 'active').slice(1)}">
+            ${(() => {
+              const state = (project.maintenance || 'active').toLowerCase();
+              if (state === 'active') return '🟢';
+              if (state === 'deprecated') return '🛑';
+              if (state === 'paused') return '⚠️';
+              return '❓';
+            })()}
+          </span>
         </div>
         
         <a href="${project.link}" target="_blank" class="project-link">
@@ -365,7 +387,8 @@ function setupSearchAndFilter() {
       } else if (currentFilter === 'uBlue') {
         matchesFilter = project.template === 'uBlue';
       } else if (currentFilter === 'feedback-yes') {
-        matchesFilter = project.feedback === '✅';
+        const fb = (project.feedback || '').toString().trim().toLowerCase();
+        matchesFilter = fb === 'yes' || fb === '✅' || fb === '💬';
       }
       
       return matchesSearch && matchesFilter;
