@@ -279,30 +279,22 @@ main {
   margin: 1rem 0;
 }
 
-.feedback-status {
+.feedback-status, .maintenance-status {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 600;
+  letter-spacing: .5px;
+  padding: 0.1rem 0.25rem;
+  color: #1f2a33;
 }
 
-.feedback-yes {
-  background: linear-gradient(135deg, #4CAF50, #45a049);
-  color: white;
-}
+/* Remove old background classes (left as no-ops in case of legacy markup) */
+.feedback-yes, .feedback-no, .feedback-unknown { background: none !important; color: inherit !important; }
 
-.feedback-no {
-  background: linear-gradient(135deg, #f44336, #da190b);
-  color: white;
-}
+.maintenance-container { margin-top: -0.5rem; }
 
-.feedback-unknown {
-  background: linear-gradient(135deg, #6c757d, #5a6268);
-  color: white;
-}
+.maintenance-status { font-size: 1.05rem; }
 
 .project-link {
   display: inline-flex;

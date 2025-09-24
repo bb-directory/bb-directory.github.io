@@ -267,10 +267,13 @@ function renderProjects(projects) {
     card.setAttribute('data-template', project.template);
     card.setAttribute('data-feedback', project.feedback);
     
-    // Determine feedback status class
-    let feedbackClass = 'feedback-unknown';
-    if (project.feedback === '✅') feedbackClass = 'feedback-yes';
-    else if (project.feedback === '❌') feedbackClass = 'feedback-no';
+  // Normalize legacy feedback emojis to new set (💬 seeking, 🚫 not seeking, 🤷‍♂️ unknown)
+  const rawFeedback = (project.feedback || '').trim();
+  let feedbackDisplay = rawFeedback;
+  if (rawFeedback === '✅') feedbackDisplay = '💬';
+  else if (rawFeedback === '❌') feedbackDisplay = '🚫';
+  else if (rawFeedback.startsWith('🤷')) feedbackDisplay = '🤷‍♂️';
+  // If user already updated JSON to the new emojis, they pass through.
 
     card.innerHTML = `
       <div class="project-screenshot ${project.logo ? 'has-logo' : ''}">
@@ -305,7 +308,11 @@ function renderProjects(projects) {
         
         <div class="feedback-container">
           <span class="project-detail-label">Seeking Feedback</span>
-          <span class="feedback-status ${feedbackClass}">${project.feedback}</span>
+          <span class="feedback-status">${feedbackDisplay}</span>
+        </div>
+        <div class="feedback-container maintenance-container">
+          <span class="project-detail-label">Maintenance Status</span>
+          <span class="maintenance-status" title="Active">🟢</span>
         </div>
         
         <a href="${project.link}" target="_blank" class="project-link">
