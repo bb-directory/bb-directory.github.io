@@ -92,7 +92,9 @@
       "screenshot": "screenshots/kompassos.png",
       "screenshotAlt": "KompassOS Screenshot",
       "devType": null,
-      "description": "A developer-friendly operating system based on Fedora Silverblue Aurora"
+      "description": "A developer-friendly operating system based on Fedora Silverblue Aurora",
+      "logo": "logos/kompassos.png",
+      "logoAlt": "KompassOS Logo"
     },
     {
       "name": "LinuXYZ",
