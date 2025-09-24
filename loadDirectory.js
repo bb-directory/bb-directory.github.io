@@ -12,7 +12,7 @@ const fallbackData = [
     "screenshot": "screenshots/atomic-t480s.png",
     "screenshotAlt": "Atomic-t480s Screenshot",
     "devType": null,
-    "description": "Optimized Fedora Silverblue image tailored for ThinkPad T480s hardware." 
+    "description": "Optimized Fedora Silverblue & Kinoite image tailored for ThinkPad T480s hardware."
   },
   {
     "name": "Blue9",
