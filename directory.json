@@ -134,7 +134,7 @@
     {
       "name": "myOS",
       "creator": "nobodywatchin",
-      "base": "Fedora bootcamp",
+      "base": "Fedora bootc",
       "template": "BlueBuild",
       "feedback": "unknown",
       "maintenance": "active",
