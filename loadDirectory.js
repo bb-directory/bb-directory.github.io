@@ -15,7 +15,7 @@ const fallbackData = [
     "description": "Optimized Fedora Silverblue & Kinoite image tailored for ThinkPad T480s hardware."
   },
   {
-    "name": "bazzite-ldx-nvidia",
+    "name": "Bazzite LDX Nvidia",
     "creator": "Lumaeris",
     "base": "bazzite-gnome-nvidia",
     "template": "BlueBuild",
