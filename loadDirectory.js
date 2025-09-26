@@ -15,6 +15,19 @@ const fallbackData = [
     "description": "Optimized Fedora Silverblue & Kinoite image tailored for ThinkPad T480s hardware."
   },
   {
+    "name": "bazzite-ldx-nvidia",
+    "creator": "Lumaeris",
+    "base": "bazzite-gnome-nvidia",
+    "template": "BlueBuild",
+    "feedback": "yes",
+    "maintenance": "active",
+    "link": "https://github.com/Lumaeris/bazzite-ldx-nvidia",
+    "screenshot": "screenshots/bazzite-ldx-nvidia.png",
+    "screenshotAlt": "Bazzite LDX NVIDIA Screenshot",
+    "devType": null,
+    "description": "Bazzite Lighter Developer Experience for owners of older NVIDIA cards." 
+  },  
+  {
     "name": "Blue9",
     "creator": "ledif",
     "base": "Vauxite",
