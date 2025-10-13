@@ -52,6 +52,18 @@ const fallbackData = [
     "description": "A modern and lightweight desktop experience that is reminiscent of a bygone era of computing."
   },
   {
+    "name": "Blueprint",
+    "creator": "leger-labs",
+    "base": "Fedora OCI (base-main)",
+    "template": "BlueBuild",
+    "feedback": "🤷‍♂️",
+    "link": "https://github.com/leger-labs/blueprint",
+    "screenshot": "screenshots/no-screenshot.png",
+    "screenshotAlt": "Blueprint Screenshot",
+    "devType": null,
+    "description": "The next-generation Fedora-based workstation — built for the Framework Desktop."
+  },
+  {
     "name": "BlueXP",
     "creator": "ledif",
     "base": "Vauxite",
