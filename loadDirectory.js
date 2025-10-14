@@ -58,7 +58,7 @@ const fallbackData = [
     "template": "BlueBuild",
     "feedback": "🤷‍♂️",
     "link": "https://github.com/leger-labs/blueprint",
-    "screenshot": "screenshots/no-screenshot.png",
+    "screenshot": "screenshots/blueprint.png",
     "screenshotAlt": "Blueprint Screenshot",
     "devType": null,
     "description": "The next-generation Fedora-based workstation — built for the Framework Desktop."
