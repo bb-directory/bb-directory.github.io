@@ -172,6 +172,20 @@
       "logoAlt": "myOS Logo"
     },
     {
+      "name": "Origami-Linux",
+      "creator": "john-holt4",
+      "base": "ublue-main",
+      "template": "BlueBuild",
+      "feedback": "unknown",
+      "link": "https://github.com/john-holt4/Origami-Linux",
+      "screenshot": "screenshots/origami.png",
+      "screenshotAlt": "Origami Screenshot",
+      "devType": null,
+      "description": "Origami elegantly folds together cutting-edge tools, beautiful design, and thoughtful defaults to create a lightweight, customizable, and visually stunning operating system using the Cosmic desktop environment.",
+      "logo": "logos/origami-linux.png",
+      "logoAlt": "Origami Logo"
+    },
+    {
       "name": "Secureblue",
       "creator": "RoyalOughtness",
       "base": "Fedora Silverblue",
