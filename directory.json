@@ -15,7 +15,7 @@
     {
       "name": "Bazzite LDX Nvidia",
       "creator": "Lumaeris",
-      "base": "bazzite-gnome-nvidia",
+      "base": "bazzite-nvidia",
       "template": "BlueBuild",
       "feedback": "yes",
       "maintenance": "active",
@@ -23,7 +23,7 @@
       "screenshot": "screenshots/bazzite-ldx-nvidia.png",
       "screenshotAlt": "Bazzite LDX NVIDIA Screenshot",
       "devType": null,
-      "description": "Bazzite Lighter Developer Experience for owners of older NVIDIA cards." 
+      "description": "Bazzite Lighter Developer Experience for owners of older NVIDIA cards, Gnome and KDE bot available." 
     },
     {
       "name": "Blue9",

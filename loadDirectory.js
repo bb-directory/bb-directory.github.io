@@ -25,7 +25,7 @@ const fallbackData = [
     "screenshot": "screenshots/bazzite-ldx-nvidia.png",
     "screenshotAlt": "Bazzite LDX NVIDIA Screenshot",
     "devType": null,
-    "description": "Bazzite Lighter Developer Experience for owners of older NVIDIA cards." 
+      "description": "Bazzite Lighter Developer Experience for owners of older NVIDIA cards, Gnome and KDE bot available." 
   },  
   {
     "name": "Blue9",
