@@ -165,7 +165,7 @@ const fallbackData = [
     "base": "ublue-main",
     "template": "BlueBuild",
     "feedback": "unknown",
-    "link": "https://github.com/nobodywatchin/myOS",
+    "link": "https://gitlab.com/origami-linux/images",
     "screenshot": "screenshots/origami.png",
     "screenshotAlt": "Origami Screenshot",
     "devType": null,
