@@ -177,7 +177,7 @@
       "base": "ublue-main",
       "template": "BlueBuild",
       "feedback": "unknown",
-      "link": "https://gitlab.com/origami-linux/images",
+      "link": "https://origami.dpdns.org/",
       "screenshot": "screenshots/origami.png",
       "screenshotAlt": "Origami Screenshot",
       "devType": null,
