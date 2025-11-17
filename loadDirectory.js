@@ -278,6 +278,21 @@ const fallbackData = [
     "screenshotAlt": "Wunker OS Screenshot",
     "devType": null,
   },
+  {
+    "name": "XeniaOS",
+    "creator": "Xenia Meraki",
+    "base": "CachyOS",
+    "template": "Arch Bootc",
+    "feedback": "yes",
+    "maintenance": "active",
+    "link": "https://github.com/XeniaMeraki/XeniaOS",
+    "screenshot": "screenshots/xeniaos.png",
+    "screenshotAlt": "XeniaOS Screenshot",
+    "devType": null,
+    "description": "Opinionated Arch Bootc gaming-oriented image using Niri and DMS",
+    "logo": "logos/xeniaos.png",
+    "logoAlt": "XeniaOS Logo"
+  },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

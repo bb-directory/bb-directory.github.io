@@ -310,6 +310,21 @@
       "screenshot": "screenshots/no-screenshot.png",
       "screenshotAlt": "Wunker OS Screenshot",
       "devType": "bb-dev"
+    },
+    {
+      "name": "XeniaOS",
+      "creator": "Xenia Meraki",
+      "base": "CachyOS",
+      "template": "Arch Bootc",
+      "feedback": "yes",
+      "maintenance": "active",
+      "link": "https://github.com/XeniaMeraki/XeniaOS",
+      "screenshot": "screenshots/xeniaos.png",
+      "screenshotAlt": "XeniaOS Screenshot",
+      "devType": null,
+      "description": "Opinionated Arch Bootc gaming-oriented image using Niri and DMS",
+      "logo": "logos/xeniaos.png",
+      "logoAlt": "XeniaOS Logo"
     }
   ]
 
